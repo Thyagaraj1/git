@@ -1,0 +1,118 @@
+…or create a new repository on the command line
+===============================================
+
+echo "# Tableau" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Thyagaraj1/Tableau.git
+git push -u origin main
+
+echo "# Tableau" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Thyagaraj1/Tableau.git
+git push -u origin main
+
+…or push an existing repository from the command line
+=====================================================
+git remote add origin git@github.com:Thyagaraj1/Tableau.git
+git branch -M main
+git push -u origin main
+
+git remote add origin https://github.com/Thyagaraj1/Tableau.git
+git branch -M main
+git push -u origin main
+
+Your name and email address were configured automatically bas
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit  in unix press esc and :wq to save the file then  hit Enter
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Thyagaraj AH -X (taralilk - CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED at Cisco) <taralilk@cisco.com>
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   Data/air_indexdata/air_index.csv
+#       new file:   Data/divvy-tripdata/202112-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202201-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202202-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202203-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202204-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202205-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202206-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202207-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202208-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202209-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202210-divvy-tripdata.csv
+#       new file:   Data/divvy-tripdata/202211-divvy-tripdata.csv
+#       new file:   Data/weatherdata/weatherdata.csv
+#       new file:   Data/zip/archive (1).zip
+#       new file:   Data/zip/archive (2).zip
+.git/COMMIT_EDITMSG [unix] (11:51 06/07/2024)  
+
+
+
+git config --global user.name "Thyagaraj1"
+git config --global user.email "ahthyagaraj@gmail.com"
+git remote remove origin 
+
+git config --list
+
+rm -rf .git(for unix) or rd -rf .git or del -rf .git-->to delete the local git repo when you get ignore error git commit -m "Tableau training docs"
+On branch master
+nothing to commit, working tree clean
+
+dir -a .git --> to see the local repository
+
+git status -->check the status
+On branch master
+nothing to commit, working tree clean
+
+git clone
+
+
+git pull
+========
+git fetch --local repo --git merge
+
+
+
+
+Found a swap file by the name "~/.gitconfig.swp"
+          owned by: CISCO+taralilk   dated: Sat Jul 06 10:59:08 2024
+         file name: ~CISCO+taralilk/.gitconfig
+          modified: YES
+         user name: CISCO+taralilk   host name: CSCO-W-PF43RYJ2
+        process ID: 1282
+While opening file "/c/Users/taralilk/.gitconfig"
+             dated: Sat Jul 06 11:51:25 2024
+      NEWER than swap file!
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r /c/Users/taralilk/.gitconfig"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file "/c/Users/taralilk/.gitconfig.swp"
+    to avoid this message.
+
+Swap file "~/.gitconfig.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (D)elete it, (Q)uit, (A)bort:
